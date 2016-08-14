@@ -9,7 +9,7 @@ public class reverse {
 		Scanner S=new Scanner(System.in);
 		System.out.println("Enter the total no of strings for reverse");
 		int n=S.nextInt();
-		System.out.println("Entr the String");
+		System.out.println("Enter the String);
 		String[] s=new String[n];
 		for(int i=0;i<n;i++)
 		{
