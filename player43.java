@@ -10,11 +10,11 @@ class player43
 		String s2=S.next();
 		if(s1.toLowerCase().contains(s2.toLowerCase()))
 		{
-			System.out.println("It contains the substring");
+			System.out.println(s2+" is the substring of "+ s1);
 		}
 		else
 		{
-			System.out.println("It does not contains the substring");
+			System.out.println(s2+" is not the substring of "+s1);
 		}
 	}	
 }
